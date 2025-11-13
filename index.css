@@ -1,0 +1,116 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0b1220;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+button {
+  background-color: #f97316;
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ea580c;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Links */
+a {
+  color: #94a3b8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f97316;
+}
+
+/* Input fields */
+input, textarea {
+  width: 100%;
+  background-color: #0b1220;
+  border: 1px solid #334155;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #f97316;
+}
+
+/* Sections */
+section {
+  padding: 5rem 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Layout utilities */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cards and boxes */
+.card {
+  background-color: #1a2335;
+  border: 1px solid #334155;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  transition: border-color 0.3s ease;
+}
+
+.card:hover {
+  border-color: #f97316;
+}
+
+/* Footer */
+footer {
+  background-color: #101827;
+  color: #94a3b8;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid #334155;
+  font-size: 0.875rem;
+}
